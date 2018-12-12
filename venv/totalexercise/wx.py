@@ -5,3 +5,4 @@ def text_reply(msg):
     return getResponse(msg["Text"])["text"]
 itchat.auto_login(hotReload=True)
 itchat.run()
+input()
